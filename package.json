@@ -1,0 +1,28 @@
+{
+  "name": "wormhole-extreme",
+  "version": "1.0.0",
+  "description": "An interactive #space scene rendered on the #browser using #WebGL and #Threejs with #Javascript by @raintek_",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": ["Three.js", "3D scene", "Space", "Wormhole", "WebGL"],
+  "author": "Rainner Lins | @raintek_ | <rainnerlins@gmail.com>",
+  "license": "MIT",
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainner/wormhole-extreme.git"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-clean-css": "^2.0.8",
+    "gulp-concat": "^2.5.2",
+    "gulp-header": "^1.2.2",
+    "gulp-plumber": "^1.0.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.3.1",
+    "gulp-uglify": "^1.1.0",
+    "gulp-watch": "^4.2.0",
+    "gulp-wrapper": "^0.1.5"
+  }
+}

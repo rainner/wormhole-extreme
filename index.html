@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Wormhole Extreme Three.js Experiment</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" id="description" content="An interactive #space scene rendered on the #browser using #WebGL and #ThreeJS by @raintek_" />
+    <meta name="author" content="Rainner Lins | @raintek_ | http://rainnerlins.com | https://github.com/rainner" />
+    <meta name="copyright" content="&copy; All Rights Reserved - 2016" />
+
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link type="text/css" rel="stylesheet" href="dist/css/bundle.min.css" />
+
+</head>
+<body>
+
+    <div class="loader active"></div>
+
+    <div class="stats center animated zoomInDown" style="display: none"></div>
+
+    <div class="container error center fadeIn" style="display: none">
+        <span class="error-icon icon-error"></span>
+        <h1 class="error-title">Oops, there's a problem.</h1>
+        <p class="error-info"></p>
+        <button type="button" class="icon-rocket" onclick="top.location.reload( true )">Try again</button>
+    </div>
+
+    <div class="container content center animated fadeIn" style="display: none">
+        <h1><i>Wormhole Extreme</i></h1>
+        <p>An experimental interactive space scene rendered on the browser using WebGL and Three.js with Javascript.</p>
+        <button id="hyper-btn" class="btn icon-rocket icon-trim" type="button"><span>Hyper Travel</span></button>
+    </div>
+
+    <div class="share center animated zoomInUp" style="display: none">
+        <a class="btn icon-twitter icon-trim" data-share="twitter" href="#"><span>Tweet</span></a> &nbsp;
+        <a class="btn icon-facebook icon-trim" data-share="facebook"  href="#"><span>Share</span></a> &nbsp;
+        <a class="btn icon-reddit icon-trim" data-share="reddit"  href="#"><span>Post</span></a> &nbsp;
+        <a class="btn icon-github icon-trim" href="https://github.com/rainner/wormhole-extreme" target="_blank"><span>Fork</span></a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r75/three.min.js"></script>
+    <script src="dist/js/polyfills.js"></script>
+    <script src="dist/js/bundle.min.js"></script>
+    <script src="dist/js/app.js"></script>
+
+</body>
+</html>
