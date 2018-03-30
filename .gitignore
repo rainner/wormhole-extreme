@@ -1,6 +1,7 @@
 /vendor/
 /node_modules/
 /bower_components/
+/media/
 composer.lock
 npm-debug.log
 jsconfig.json
