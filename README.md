@@ -5,7 +5,9 @@
 
 # Wormhole Extreme
 
-An experimental interactive space scene rendered on the browser using WebGL and Three.js with Javascript.
+![Wormhole-Extreme](https://raw.githubusercontent.com/rainner/wormhole-extreme/master/thumb.jpg)
+
+This is an experimental interactive space scene rendered on the browser using WebGL and Three.js with Javascript. The 3D scene contains planets, stars and a nebula effect that changes color and warps into a "wormhole" effect to create the illusion of traveling through space.
 
 ##### [Check out the demo][demo]
 
